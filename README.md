@@ -2,6 +2,7 @@
 A Game of Thrones inspired mod for XCOM 2.
 
 ## House Banners
+![alt text](imageSource/House_Baelish.png "House Baelish")
 ![alt text](imageSource/house_baratheon.png "House Baratheon")
 ![alt text](imageSource/house_bolton.png "House Bolton")
 ![alt text](imageSource/house_clegane.png "House Clegane")
@@ -10,8 +11,10 @@ A Game of Thrones inspired mod for XCOM 2.
 ![alt text](imageSource/house_martell.png "House Martell")
 ![alt text](imageSource/house_mormont.png "House Mormont")
 ![alt text](imageSource/House_Reed.png "House Reed")
+![alt text](imageSource/House_Selmy.png "House Reed")
 ![alt text](imageSource/house_stark.png "House Stark")
 ![alt text](imageSource/house_targaryen.png "House Targaryen")
+![alt text](imageSource/House_Tarth.png "House Tarth")
 ![alt text](imageSource/house_tyrell.png "House Tyrell")
 
 
