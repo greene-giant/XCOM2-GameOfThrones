@@ -18,7 +18,7 @@ A Game of Thrones inspired mod for XCOM 2.
 ![alt text](imageSource/house_tyrell.png "House Tyrell")
 
 
-## Groups:
+## Group Banners:
 ![alt text](imageSource/Group_Citadel.png "The Citadel")
 ![alt text](imageSource/group_freeFolk.png "Free Folk")
 ![alt text](imageSource/group_lordOfLight.png "Lord of Light")
