@@ -25,6 +25,7 @@ static function array<X2DataTemplate> CreateTemplates()
 	Countries.AddItem(CreateStarkTemplate());
 	Countries.AddItem(CreateTargaryenTemplate());
 	Countries.AddItem(CreateTarthTemplate());
+	Countries.AddItem(CreateTullyTemplate());
 	Countries.AddItem(CreateTyrellTemplate());
 
 
@@ -32,6 +33,7 @@ static function array<X2DataTemplate> CreateTemplates()
 	Countries.AddItem(CreateCitadelTemplate());
 	Countries.AddItem(CreateFreeFolkTemplate());
 	Countries.AddItem(CreateLordOfLightTemplate());
+	Countries.AddItem(CreateUnsulliedTemplate());
 	Countries.AddItem(CreateWhispersTemplate());
 
 	return Countries;
@@ -273,6 +275,24 @@ static function X2DataTemplate CreateTarthTemplate()
 }
 
 
+static function X2DataTemplate CreateTullyTemplate()
+{
+	local X2CountryTemplate Template;
+	local CountryNames NameStruct;
+
+	`CREATE_X2TEMPLATE(class'X2CountryTemplate', Template, 'Country_Tully');
+
+	NameStruct.MaleNames = class'XGCharacterGenerator'.default.m_arrEnMFirstNames;
+	NameStruct.FemaleNames = class'XGCharacterGenerator'.default.m_arrEnFFirstNames;
+	NameStruct.MaleLastNames = class'XGCharacterGenerator'.default.m_arrEnLastNames;
+	NameStruct.FemaleLastNames = class'XGCharacterGenerator'.default.m_arrEnLastNames;
+	NameStruct.PercentChance = 100;
+	Template.Names.AddItem(NameStruct);
+
+	return Template;
+}
+
+
 static function X2DataTemplate CreateTyrellTemplate()
 {
 	local X2CountryTemplate Template;
@@ -360,6 +380,25 @@ static function X2DataTemplate CreateLordOfLightTemplate()
 
 	return Template;
 }
+
+
+static function X2DataTemplate CreateUnsulliedTemplate()
+{
+	local X2CountryTemplate Template;
+	local CountryNames NameStruct;
+
+	`CREATE_X2TEMPLATE(class'X2CountryTemplate', Template, 'Country_Unsullied');
+
+	NameStruct.MaleNames = class'XGCharacterGenerator'.default.m_arrEnMFirstNames;
+	NameStruct.FemaleNames = class'XGCharacterGenerator'.default.m_arrEnFFirstNames;
+	NameStruct.MaleLastNames = class'XGCharacterGenerator'.default.m_arrEnLastNames;
+	NameStruct.FemaleLastNames = class'XGCharacterGenerator'.default.m_arrEnLastNames;
+	NameStruct.PercentChance = 100;
+	Template.Names.AddItem(NameStruct);
+
+	return Template;
+}
+
 
 static function X2DataTemplate CreateWhispersTemplate()
 {

@@ -11,10 +11,11 @@ A Game of Thrones inspired mod for XCOM 2.
 ![alt text](imageSource/house_martell.png "House Martell")
 ![alt text](imageSource/house_mormont.png "House Mormont")
 ![alt text](imageSource/House_Reed.png "House Reed")
-![alt text](imageSource/House_Selmy.png "House Reed")
+![alt text](imageSource/House_Selmy.png "House Selmy")
 ![alt text](imageSource/house_stark.png "House Stark")
 ![alt text](imageSource/house_targaryen.png "House Targaryen")
 ![alt text](imageSource/House_Tarth.png "House Tarth")
+![alt text](imageSource/House_Tully.png "House Tully")
 ![alt text](imageSource/house_tyrell.png "House Tyrell")
 
 
@@ -22,4 +23,5 @@ A Game of Thrones inspired mod for XCOM 2.
 ![alt text](imageSource/Group_Citadel.png "The Citadel")
 ![alt text](imageSource/group_freeFolk.png "Free Folk")
 ![alt text](imageSource/group_lordOfLight.png "Lord of Light")
+![alt text](imageSource/Group_Unsullied.png "Unsullied")
 ![alt text](imageSource/Group_Whispers.png "House of Whispers")
