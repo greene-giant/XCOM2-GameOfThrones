@@ -23,5 +23,6 @@ A Game of Thrones inspired mod for XCOM 2.
 ![alt text](imageSource/Group_Citadel.png "The Citadel")
 ![alt text](imageSource/group_freeFolk.png "Free Folk")
 ![alt text](imageSource/group_lordOfLight.png "Lord of Light")
+![alt text](imageSource/Group_NightsWatch.png "Night's Watch")
 ![alt text](imageSource/Group_Unsullied.png "Unsullied")
 ![alt text](imageSource/Group_Whispers.png "House of Whispers")

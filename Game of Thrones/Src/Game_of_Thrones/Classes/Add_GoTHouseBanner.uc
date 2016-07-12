@@ -33,6 +33,7 @@ static function array<X2DataTemplate> CreateTemplates()
 	Countries.AddItem(CreateCitadelTemplate());
 	Countries.AddItem(CreateFreeFolkTemplate());
 	Countries.AddItem(CreateLordOfLightTemplate());
+	Countries.AddItem(CreateNightsWatchTemplate());
 	Countries.AddItem(CreateUnsulliedTemplate());
 	Countries.AddItem(CreateWhispersTemplate());
 
@@ -364,12 +365,31 @@ static function X2DataTemplate CreateFreeFolkTemplate()
 	return Template;
 }
 
+
 static function X2DataTemplate CreateLordOfLightTemplate()
 {
 	local X2CountryTemplate Template;
 	local CountryNames NameStruct;
 
 	`CREATE_X2TEMPLATE(class'X2CountryTemplate', Template, 'Country_LordOfLight');
+
+	NameStruct.MaleNames = class'XGCharacterGenerator'.default.m_arrEnMFirstNames;
+	NameStruct.FemaleNames = class'XGCharacterGenerator'.default.m_arrEnFFirstNames;
+	NameStruct.MaleLastNames = class'XGCharacterGenerator'.default.m_arrEnLastNames;
+	NameStruct.FemaleLastNames = class'XGCharacterGenerator'.default.m_arrEnLastNames;
+	NameStruct.PercentChance = 100;
+	Template.Names.AddItem(NameStruct);
+
+	return Template;
+}
+
+
+static function X2DataTemplate CreateNightsWatchTemplate()
+{
+	local X2CountryTemplate Template;
+	local CountryNames NameStruct;
+
+	`CREATE_X2TEMPLATE(class'X2CountryTemplate', Template, 'Country_NightsWatch');
 
 	NameStruct.MaleNames = class'XGCharacterGenerator'.default.m_arrEnMFirstNames;
 	NameStruct.FemaleNames = class'XGCharacterGenerator'.default.m_arrEnFFirstNames;
