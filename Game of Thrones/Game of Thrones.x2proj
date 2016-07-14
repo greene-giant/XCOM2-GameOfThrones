@@ -35,6 +35,9 @@
     <Content Include="Src\Game_of_Thrones\Classes\Add_GoTHouseBanner.uc">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Src\Game_of_Thrones\Classes\Add_GoT_Icon.uc">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Src\Game_of_Thrones\Classes\X2DownloadableContentInfo_Game_of_Thrones.uc" />
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
