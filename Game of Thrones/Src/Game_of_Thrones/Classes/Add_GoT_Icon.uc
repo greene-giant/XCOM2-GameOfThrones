@@ -29,7 +29,7 @@ event OnInit(UIScreen Screen)
 }
 
 // This event is triggered when a screen is removed
-event OnRemoved(UIScreen Screen)
+/*event OnRemoved(UIScreen Screen)
 {
 	local UICustomize CustomizeScreen;
 
@@ -42,7 +42,7 @@ event OnRemoved(UIScreen Screen)
 			CustomizeScreen.CustomizeManager.UnsubscribeToGetIconsForBodyPart(GetIconsForBodyPart);
 		}
 	}
-}
+}*/
 
 function string GetIconsForBodyPart(X2BodyPartTemplate BodyPart)
 {

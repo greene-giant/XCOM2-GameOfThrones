@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # XCOM ModBuddy Solution File, Format Version 11.00
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "Game of Thrones", "Game of Thrones\Game of Thrones.x2proj", "{5FA8A2FC-DAF9-4CB0-8572-8481F1F916AA}"
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "Game of Thrones", "Game of Thrones\Game of Thrones.x2proj", "{12F073DC-246A-46DD-BFE4-D9F547379A4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|XCOM 2 = Default|XCOM 2
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5FA8A2FC-DAF9-4CB0-8572-8481F1F916AA}.Default|XCOM 2.ActiveCfg = Default|XCOM 2
-		{5FA8A2FC-DAF9-4CB0-8572-8481F1F916AA}.Default|XCOM 2.Build.0 = Default|XCOM 2
+		{12F073DC-246A-46DD-BFE4-D9F547379A4C}.Default|XCOM 2.ActiveCfg = Default|XCOM 2
+		{12F073DC-246A-46DD-BFE4-D9F547379A4C}.Default|XCOM 2.Build.0 = Default|XCOM 2
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
